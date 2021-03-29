@@ -85,9 +85,10 @@ a {
   justify-content: space-between;
   padding: 1rem;
 }
-.row {
-  background-image: url("bg1.png");
+.jumbotron {
+  background-image: url("bg4.png");
 }
+
 .nav-center {
   background-color: white;
   box-shadow: var(--light-shadow);
@@ -174,7 +175,7 @@ a {
     justify-content: space-between;
     padding: 1rem;
     background-color: white;
-    box-shadow: var(--light-shadow);
+    /* box-shadow: var(--light-shadow); */
   }
   .nav-header {
     padding: 0;
