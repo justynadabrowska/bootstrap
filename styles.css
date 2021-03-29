@@ -69,7 +69,6 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: linear-gradient(to right, #A1FFCE, #FAFFD1);
   color: var(--clr-grey-1);
   font-size: 0.8rem;
 }
@@ -86,6 +85,13 @@ a {
   justify-content: space-between;
   padding: 1rem;
 }
+.row {
+  background-image: url("bg1.png");
+}
+.nav-center {
+  background-color: white;
+  box-shadow: var(--light-shadow);
+}
 .nav-toggle {
   font-size: 1rem;
   color: var(--clr-grey-3);
@@ -94,12 +100,19 @@ a {
   transition: var(--transition);
   cursor: pointer;
 }
+
+.invite {
+  font-size: 1.5rem;
+  font-family: monospace;
+}
+
 .nav-toggle:hover {
   color: var(--clr-primary-1);
   transform: scale(1.1);
 }
 .logo {
   height: 5rem;
+  text-align: right;
 }
 .links a {
   color: var(--clr-grey-3);
@@ -155,12 +168,13 @@ a {
 
  @media screen and (min-width: 800px) {
   .nav-center {
-    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    background-color: white;
+    box-shadow: var(--light-shadow);
   }
   .nav-header {
     padding: 0;
