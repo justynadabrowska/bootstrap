@@ -1,2 +1,3 @@
-# bootstrap
-exercise bootstrap
+# exercise portfolio
+
+working on an example porfolio
