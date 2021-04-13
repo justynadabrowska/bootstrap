@@ -176,6 +176,11 @@ a {
   height: 10rem;
 }
 
+.proj {
+  margin: auto;
+}
+
+
 /*footer*/
  .footer {
   text-align: center;
@@ -213,5 +218,5 @@ a {
     font-weight: bolder;
     transition: var(--transition);
   }
-  
+
 }
